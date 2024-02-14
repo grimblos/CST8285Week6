@@ -1,0 +1,27 @@
+/*
+* Author: Michael Dagher
+*/
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+:root {
+    --greenyellowcrayola : #DDD78D;
+    --goldcrayola : #DCBF85;
+    --rosetaupe: #8B635C;
+    --umber : #60594D;
+    --morningblue : #93A29B;
+    --textblack : rgb(53, 0, 0);
+}
+
+body {
+    background-color : var(--greenyellowcrayola);
+    color : var(--textblack);
+    font-family: "Protest Guerrilla";
+}
+
+header, footer {
+    background-color: var(--umber);
+    color : var(--morningblue);
+    border: var(--textblack);
+    border-width: 4px;
+    padding : 10px;
+}
