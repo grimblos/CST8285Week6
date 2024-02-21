@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michael Dagher">
     <title>Lab 3: HTML and CSS</title>
-    <link rel="stylesheet" type="text/css" href="lab3.css">
+    <link rel="stylesheet" href="lab3.css">
 </head>
 <body>
     <header>
@@ -73,7 +73,7 @@
         </p>
         
         <!--[BLOCK QUOTE]-->
-        <p>
+        <p class="quote">
             When two elements have the same specificity value then the declaration that comes
             last in the source code wins.
         </p>
@@ -188,8 +188,8 @@
     </main>
 
     <footer>
-        <a href="#cssorigin">Top of Article</a>
-         <p>Formatting and code by Michael Dagher.</p>
+        <a href="#cssorigin" id="topofarticle">Top of Article</a>
+         <p id="credits">Formatting and code by Michael Dagher.</p>
     </footer>
 
 </html>

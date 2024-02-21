@@ -12,10 +12,33 @@
     --textblack : rgb(53, 0, 0);
 }
 
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    color: var(--rosetaupe);
+}
+
 body {
     background-color : var(--greenyellowcrayola);
     color : var(--textblack);
     font-family: "Protest Guerrilla";
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    text-align: right;
+    text-decoration: wavy;
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+header {
+    font-size: 40px;
 }
 
 header, footer {
@@ -24,4 +47,39 @@ header, footer {
     border: var(--textblack);
     border-width: 4px;
     padding : 10px;
+}
+
+
+img {
+    width: 25%;
+    margin: 10px;
+    float: right;
+}
+
+main h2 {
+    font-size: 16pt;
+    text-decoration: solid;
+}
+
+main p {
+    font-size: 14pt;
+    margin: 10px 10px 20px 20px;
+}
+
+main p.quote {
+    background-color: var(--goldcrayola);
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 12pt;
+}
+
+nav a :hover{
+    background-color: var(--rosetaupe);
 }
